@@ -1,4 +1,4 @@
-###                                           CS 6320 – Natural Language Processing
+#                                           CS 6320 – Natural Language Processing
 
 ###                                                        Spring 2020
 
