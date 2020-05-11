@@ -1,5 +1,3 @@
-# **Information Extraction application using NLP features and techniques**
-
 ###                                           CS 6320 – Natural Language Processing
 
 ###                                                        Spring 2020
