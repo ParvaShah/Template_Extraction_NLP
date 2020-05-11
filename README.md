@@ -1,6 +1,4 @@
-#                                           CS 6320 – Natural Language Processing
-
-###                                                        Spring 2020
+#                                           CS 6320 – Natural Language Processing [Spring 2020]
 
 ###                                                   Sagar Patel [SBP170003]
 
