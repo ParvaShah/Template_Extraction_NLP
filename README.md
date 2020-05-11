@@ -14,9 +14,9 @@ Representing the information of text entities of interest and relation between t
 
 The project talks about extracting templates for _Work_, _Buy_ and _Part Of_. _Work_ template refers to a person employed in a company at a desired position_. Buy_ template extracts information about the transaction between the source and buyer. Part Of template extracts information regarding the role of the relationship between two locations. Our focus is to leverage NLP features and techniques to achieve this goal.
 
-## **Proposed**
+## **Proposed Solution**
 
-## **Solution**
+
 
 There are a few sub-tasks to achieve Information Extraction. It includes identifying the type of text corpus, segmentation of corpus, tokenizing the sentences into words, lemmatizing the words to extract lemmas, Part-of-Speech (POS) tagging, extracting hypernyms, hyponyms, and as such other NLP tasks.
 
