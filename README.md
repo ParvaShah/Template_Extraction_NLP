@@ -1,12 +1,12 @@
 # **Information Extraction application using NLP features and techniques**
 
-CS 6320 – Natural Language Processing
+###                                           CS 6320 – Natural Language Processing
 
-Spring 2020
+###                                                        Spring 2020
 
-Sagar Patel [SBP170003]
+###                                                   Sagar Patel [SBP170003]
 
-Parva Shah [PKS180000]
+###                                                   Parva Shah [PKS180000]
 
 ## Problem Description
 
@@ -32,7 +32,7 @@ _Coreference resolution is the task of finding all expressions that refer to the
 
 The Coreference resolution is performed using the AllenNLP library. As the library is unable to handle big chunks of text input, we created batched input to obtain the resolution.
 
-![](RackMultipart20200511-4-10ytagt_html_45cb967d6b51b014.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/NER.JPG)
 
 To recognize the entities in the sentence, Named Entity Recognizer of SpaCy is used.
 
@@ -49,13 +49,13 @@ The above examples are verb triggered sentences.
 
 Here, the Buyer and Source can be person and organization. Item can be organization and product. Named Entity Recognizer is used to recognize these noun entities as buyer, source, and item.
 
-![](RackMultipart20200511-4-10ytagt_html_afbccecf71fe5bcf.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/buy.JPG)
 
 To discover the relationship between the entities, we need to know the semantic meaning of the sentence. Sentences triggering the _Buy_ template have roles like agent, experiencer, benefactive, etc. To detect these entities in a sentence Semantic Role Labeling (SRL) is used.
 
 _In natural language processing, semantic role labeling is the process that assigns labels to words or phrases in a sentence that indicate their semantic role in the sentence, such as that of an agent, goal, or result._
 
-![](RackMultipart20200511-4-10ytagt_html_7d93840dc088ec09.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/SRL.JPG)
 
 The SRL is used only when a sentence contains a verb. Each verb sense has numbered arguments like Arg0, Arg1, Arg2, etc. along with modifiers like location, direction, manner, temporal, etc. In our sentences, Arg0 contains buyer which act as an agent, Arg1 tells about the item in the transaction and Arg2 contains the source which act as beneficiary.
 
@@ -63,7 +63,7 @@ Heuristic approaches were applied for identifying right entities from the senten
 
 Work Template
 
-![](RackMultipart20200511-4-10ytagt_html_eaf9b901c19cecde.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/work.JPG)
 
 In this template, we need to extract a person, his/her position, organization, and location. A verb and words with the lemma &quot;be.&quot; trigger work template sentences. For example:-
 
@@ -73,17 +73,17 @@ In this template, we need to extract a person, his/her position, organization, a
 
 The above sentences are formed by rule-based grammar. Here phrase structure grammar plays a vital role, especially noun phrases. To detect the noun phrases, we used Constituency Parser.
 
-_A constituency parsed tree displays the syntactic structure of a sentence using a context-free grammar._ ![](RackMultipart20200511-4-10ytagt_html_5e0181746db08c39.jpg)
+_A constituency parsed tree displays the syntactic structure of a sentence using a context-free grammar._ ![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/constituency.JPG)
 
 The main reason to use Constituency Grammar was to get extraneous information and to visualize the entire sentence structure rather than just the grammatical dependencies. Using Constituency Parsing, we obtain noun phrases from which we extract required entities.
 
 Location Template
 
-![](RackMultipart20200511-4-10ytagt_html_efcc27b144ec5166.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/location.JPG)
 
 In this template, we need to identify two locations that have _PART OF_ relationship. Named Entity Recognizer is used to determine locations from the sentence.
 
-![](RackMultipart20200511-4-10ytagt_html_b8d14ed42f7281ae.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/dep.JPG)
 
 Here, dependency parser is used to check the connectivity between two locations. If the sentence is triggered by a verb, a relation is obtained by looking at the subtrees of the verb.
 
@@ -112,19 +112,21 @@ Pandas - [https://pandas.pydata.org/](https://pandas.pydata.org/)
 
 The below diagram represents the whole NLP pipeline to extract the template using NLP features and techniques.
 
-![](RackMultipart20200511-4-10ytagt_html_5a1e674c88eae523.jpg) ![](RackMultipart20200511-4-10ytagt_html_48fa734aede6a94b.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/1.JPG) ![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/2.JPG)
 
 **Results and Error Analysis**
 
 Buy Template:-
 
-![](RackMultipart20200511-4-10ytagt_html_f164dc52b799ec64.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/result_buy.JPG)
 
 Work Template:-
 
-![](RackMultipart20200511-4-10ytagt_html_46113f0e5b73882c.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/result_work.JPG)
 
-Part Of Template:- ![](RackMultipart20200511-4-10ytagt_html_1769221024611852.jpg)
+Part Of Template:- 
+
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/loc.JPG)
 
 **Problems Encountered and Resolution**
 
