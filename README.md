@@ -20,7 +20,7 @@ The project talks about extracting templates for _Work_, _Buy_ and _Part Of_. _W
 
 There are a few sub-tasks to achieve Information Extraction. It includes identifying the type of text corpus, segmentation of corpus, tokenizing the sentences into words, lemmatizing the words to extract lemmas, Part-of-Speech (POS) tagging, extracting hypernyms, hyponyms, and as such other NLP tasks.
 
-![](RackMultipart20200511-4-10ytagt_html_5a1e674c88eae523.jpg)
+![](https://github.com/ParvaShah/Template_Extraction_NLP/blob/master/pics/1.JPG)
 
 Information Extraction is done on Wikipedia articles. Due to the large size and complexity of the article, it became hard to perform natural language processing tasks, which makes it is necessary to do sentence segmentation.
 
