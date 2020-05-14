@@ -173,6 +173,6 @@ In _Work_ template, potential improvement can be made by using SRL and Dependenc
 
 **Authors**
 
-[https://github.com/ParvaShah](Parva Shah)
+[Parva Shah](https://github.com/ParvaShah/)
 
-[https://github.com/sagar0207](Sagar Patel)
+[Sagar Patel](https://github.com/sagar0207/)
