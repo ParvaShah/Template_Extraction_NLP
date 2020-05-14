@@ -1,8 +1,5 @@
 #                                           CS 6320 – Natural Language Processing [Spring 2020]
 
-###                                                   Sagar Patel [SBP170003]
-
-###                                                   Parva Shah [PKS180000]
 
 ## Problem Description
 
@@ -173,3 +170,7 @@ In _Work_ template, potential improvement can be made by using SRL and Dependenc
 [https://www.nltk.org/howto/wordnet.html](https://www.nltk.org/howto/wordnet.html)
 
 [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.139.3746&amp;rep=rep1&amp;type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.139.3746&amp;rep=rep1&amp;type=pdf)
+
+**Authors**
+Parva Shah
+Sagar Patel
