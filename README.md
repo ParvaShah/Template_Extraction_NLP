@@ -172,5 +172,7 @@ In _Work_ template, potential improvement can be made by using SRL and Dependenc
 [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.139.3746&amp;rep=rep1&amp;type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.139.3746&amp;rep=rep1&amp;type=pdf)
 
 **Authors**
-Parva Shah
-Sagar Patel
+
+[https://github.com/ParvaShah](Parva Shah)
+
+[https://github.com/sagar0207](Sagar Patel)
